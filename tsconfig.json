@@ -1,0 +1,19 @@
+{
+  "include": ["lib"],
+  "exclude": ["node_modules", "dist"],
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2020",
+    "lib": ["esnext"],
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "newLine": "lf",
+    "paths": {
+      "@hoppingmode-web/api/*": ["lib/lib/api/*"]
+    }
+  }
+}
